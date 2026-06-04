@@ -14,10 +14,10 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 dp = Dispatcher()
 
-BOT_TOKEN = "8812385852:AAHXVjR3udfw7G0oFIQED8g6iDadEhp09Ng"
+BOT_TOKEN = "Bot_token"
 payment_provider_token = "YOUR_PAYMENT_PROVIDER_TOKEN_HERE"
-admin_id = 852371393
-channel_id = -1003932672021  
+admin_id = "admin_id"
+channel_id = "channel_id" 
 
 bot = Bot(token=BOT_TOKEN, default_properties=DefaultBotProperties(parse_mode=ParseMode.HTML))
 
